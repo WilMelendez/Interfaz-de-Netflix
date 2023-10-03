@@ -1,0 +1,38 @@
+.body{
+    margin: 0;
+}
+
+
+.portada{
+    background-image:url(img/Portada\ de\ inicio.png);
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+li{
+    list-style: none;
+}
+.perfiles .perfil1 , .perfiles .perfil3{
+    position: relative;
+    left: 10%;
+}
+.perfiles .perfil2 , .perfiles .perfil4{
+    position: relative;
+    right: 10%;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+}
+.nav3{
+
+    position: relative;
+    top: 360px;
+
+    
+}
+.nav4{
+    position: relative;
+    top: 350px;
+}
