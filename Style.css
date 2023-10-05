@@ -5,10 +5,32 @@
 
 .portada{
     background-image:url(img/Portada\ de\ inicio.png);
-    
     background-repeat: no-repeat;
     background-size: 100%;
 }
+button {
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: rgba(245, 27, 15, 1);
+}
+.button1{
+    width: 83px;
+    height: 30px;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input{
+    border-radius: 10px;
+    background: #FFF;
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
 li{
     list-style: none;
 }
@@ -35,4 +57,13 @@ a{
 .nav4{
     position: relative;
     top: 350px;
+}
+.text1 {
+    color: #FFF;
+    
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
 }
