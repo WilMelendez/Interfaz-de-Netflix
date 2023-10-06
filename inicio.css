@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #000000;
+    
+    background-image:url(img/Portada\ de\ inicio.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+.portada{
+    z-index: 1;
+    background: linear-gradient(0deg, #0000001d 0%, rgba(0, 0, 0, 0.278) 29.44%, rgba(0, 0, 0, 0.492) 85.94%, rgb(0, 0, 0) 97.1%);
+}
+.seccion2{
+    z-index: 2;
+    margin-top: 95%;
+
+}
+.navs {
+    background: linear-gradient(0deg, #000 0%, rgb(0, 0, 0) 29.44%, rgba(0, 0, 0, 0.657) 85.94%, rgba(0, 0, 0, 0.271) 97.1%);
+
+}
+ .nav4{
+    margin-top: 10%;
+}
+ h6{
+    color: #FFF;
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+.button1{
+    width: 90px;
+    height: 44px;
+    border-radius: 10px;
+    background: #FFF;
+
+}
+.carrusel{
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.carrusel-items{
+    display: flex;
+    overflow-x: scroll;
+
+}
+.carrusel-item{
+    padding: 1%;
+    min-width: 100px;
+    max-width: 100px;
+    height: 150px;
+
+}
+.carrusel-item img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+}
+.carrusel-items3{
+    display: flex;
+    overflow-x: scroll;
+
+}
+.carrusel-item3{
+    padding: 1%;
+    min-width: 150px;
+    max-width: 150px;
+    height: 313.913px;
+    flex-shrink: 0;
+
+}
+.carrusel-item3 img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+}
+.footertext{
+    color: #787878;
+    font-family: HelveticaNeue;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,4 +1,4 @@
-.body{
+body{
     margin: 0;
 }
 
@@ -30,34 +30,49 @@ input{
     height: 50px;
     flex-shrink: 0;
 }
+.input1{
+    border-radius: 10px;
+    border-color: #ff0000;
+    background: #ff0000;
+    text-decoration: color(white);
+    margin-top: 10% ;
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0; 
 
-li{
-    list-style: none;
+}
+.input2{
+    border-radius: 10px;
+    border-color: #ff0000;
+    background: #ff0000;
+    text-decoration: color(white);
+    margin-top: 40% ;
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0; 
+
+}
+
+
+.perfiles{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
 }
 .perfiles .perfil1 , .perfiles .perfil3{
     position: relative;
-    left: 10%;
+    left: 5%;
 }
 .perfiles .perfil2 , .perfiles .perfil4{
     position: relative;
-    right: 10%;
+    right: 5%;
 }
 a{
     list-style: none;
     text-decoration: none;
     color: red;
 }
-.nav3{
 
-    position: relative;
-    top: 360px;
-
-    
-}
-.nav4{
-    position: relative;
-    top: 350px;
-}
 .text1 {
     color: #FFF;
     
